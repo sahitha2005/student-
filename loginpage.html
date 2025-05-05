@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="loginpage.css">
 </head>
 <body>
+
 <div class="d1">
-	<div class="d2">
-		<input type="text" name="name" value="NAME"><br><br>
-		<input type="text" name="regno" value="REGNO"><br><br>
-		<label for="dob">DATE OF BIRTH</label>
-        <input type="date" id="dob" name="DOB"><br><br>
-		<label for="options">DEPARTMENT</label>
-        <select name="option" id="options">
-            <option value="option1">MCA</option>
-            <option value="option2">MBA</option>
-            <option value="option3">ME</option>
-        </select><BR><BR>
-        <label for="choices">HOBBIES</label><br>
-        <select name="choices" id="choices" ><br>
-        	<input type="checkbox"name="choices"value="option1">DRAWING</option><br>
-        	<input type="checkbox"name="choices"value="option2">LISTINING MUSIC</option><br>
-        	<input type="checkbox"name="choices"value="option3">LEARNING NEW THINGS</option><br>
-        	<input type="checkbox"name="choices"value="option4">SLEEPING</option><br>
-        	<input type="checkbox"name="choices"value="option5">READING</option><br><br>
-        </select>
-        <input type="button" name="submit" value="submit">
-	</div>
+  <div class="d2"><center>
+    <label><b>NAME</b></label><br>
+    <input type="text" name=""><br><br>
+
+    <label><b>REGNO</b></label><br>
+    <input type="text" name="regno"><br><br>
+
+    <label for="dob"><b>DATE OF BIRTH</b></label><br>
+    <input type="date" id="dob" name="DOB"><br><br>
+
+    <label for="options"><b>DEPARTMENT</b></label><br>
+    <select name="option" id="options">
+      <option value="MCA">MCA</option>
+      <option value="MBA">MBA</option>
+      <option value="ME">ME</option>
+    </select><br><br>
+
+    <label><b>TENTH PERCENTAGE</b></label><br>
+    <input type="text" name="tenth_percentage"><br><br>
+
+    <label><b>TWELTH PERCENTAGE</b></label><br>
+    <input type="text" name="twelth_percentage"><br><br>
+
+    <label><b>UG PERCENTAGE</b></label><br>
+    <input type="text" name="ug_percentage"><br><br>
+
+    <label><b>HOBBIES</b></label><br>
+    <input type="checkbox" name="hobby" value="drawing"> DRAWING<br>
+    <input type="checkbox" name="hobby" value="music"> LISTENING MUSIC<br>
+    <input type="checkbox" name="hobby" value="learning"> LEARNING NEW THINGS<br>
+    <input type="checkbox" name="hobby" value="sleeping"> SLEEPING<br>
+    <input type="checkbox" name="hobby" value="reading"> READING<br><br>
+
+    <input type="button" name="submit" value="Submit"></center>
+  </div>
+
+  <div class="d3">
+    <img src="collegephoto.jpg" alt="College Image">
+  </div>
 </div>
+
 </body>
 </html>

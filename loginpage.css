@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.d1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+  background-color: lightblue;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.d2 {
+  width: 50%;
+  float: right;
+}
+
+.d3 {
+  width: 45%;
+  text-align: right;
+}
+
+img {
+  max-width: 100%;
+  height: 625PX;
+  border-radius: 10px;
+}
