@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Login Page</title>
   <link rel="stylesheet" type="text/css" href="loginpage.css">
@@ -9,40 +9,44 @@
 <body>
 
 <div class="d1">
-  <div class="d2"><center>
-    <label><b>NAME</b></label><br>
-    <input type="text" name=""><br><br>
+  <div class="d2">
+    <center>
+      <form action="/login" method="POST">
+        <label><b>NAME</b></label><br>
+        <input type="text" name="name" required><br><br>
 
-    <label><b>REGNO</b></label><br>
-    <input type="text" name="regno"><br><br>
+        <label><b>REGNO</b></label><br>
+        <input type="text" name="regno" required><br><br>
 
-    <label for="dob"><b>DATE OF BIRTH</b></label><br>
-    <input type="date" id="dob" name="DOB"><br><br>
+        <label for="dob"><b>DATE OF BIRTH</b></label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
 
-    <label for="options"><b>DEPARTMENT</b></label><br>
-    <select name="option" id="options">
-      <option value="MCA">MCA</option>
-      <option value="MBA">MBA</option>
-      <option value="ME">ME</option>
-    </select><br><br>
+        <label for="options"><b>DEPARTMENT</b></label><br>
+        <select name="department" id="options">
+          <option value="MCA">MCA</option>
+          <option value="MBA">MBA</option>
+          <option value="ME">ME</option>
+        </select><br><br>
 
-    <label><b>TENTH PERCENTAGE</b></label><br>
-    <input type="text" name="tenth_percentage"><br><br>
+        <label><b>TENTH PERCENTAGE</b></label><br>
+        <input type="text" name="tenth_percentage" required><br><br>
 
-    <label><b>TWELTH PERCENTAGE</b></label><br>
-    <input type="text" name="twelth_percentage"><br><br>
+        <label><b>TWELTH PERCENTAGE</b></label><br>
+        <input type="text" name="twelth_percentage" required><br><br>
 
-    <label><b>UG PERCENTAGE</b></label><br>
-    <input type="text" name="ug_percentage"><br><br>
+        <label><b>UG PERCENTAGE</b></label><br>
+        <input type="text" name="ug_percentage" required><br><br>
 
-    <label><b>HOBBIES</b></label><br>
-    <input type="checkbox" name="hobby" value="drawing"> DRAWING<br>
-    <input type="checkbox" name="hobby" value="music"> LISTENING MUSIC<br>
-    <input type="checkbox" name="hobby" value="learning"> LEARNING NEW THINGS<br>
-    <input type="checkbox" name="hobby" value="sleeping"> SLEEPING<br>
-    <input type="checkbox" name="hobby" value="reading"> READING<br><br>
+        <label><b>HOBBIES</b></label><br>
+        <input type="checkbox" name="hobbies" value="drawing"> DRAWING<br>
+        <input type="checkbox" name="hobbies" value="music"> LISTENING MUSIC<br>
+        <input type="checkbox" name="hobbies" value="learning"> LEARNING NEW THINGS<br>
+        <input type="checkbox" name="hobbies" value="sleeping"> SLEEPING<br>
+        <input type="checkbox" name="hobbies" value="reading"> READING<br><br>
 
-    <input type="button" name="submit" value="Submit"></center>
+        <input type="submit" value="Submit">
+      </form>
+    </center>
   </div>
 
   <div class="d3">
