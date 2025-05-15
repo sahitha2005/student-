@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Student Registration</h2>
+    <form id="studentForm">
+      <input type="text" name="registerNumber" placeholder="Register Number" required />
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="text" name="department" placeholder="Department" required />
+      <input type="date" name="dob" required />
+      <button type="submit">Register</button>
+      <p id="message"></p>
+    </form>
+  </div>
+  <script src="form.js"></script>
+</body>
+</html>
